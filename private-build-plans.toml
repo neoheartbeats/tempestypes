@@ -1,63 +1,58 @@
 [buildPlans.Tempestypes]
 family = "Tempestypes"
-spacing = "normal"
+spacing = "fontconfig-mono"
 serifs = "sans"
-noCvSs = true
+noCvSs = false
 exportGlyphNames = false
 
 [buildPlans.Tempestypes.variants.design]
 two = "straight-neck-serifless"
 three = "flat-top-serifless"
 four = "closed-serifless"
+five = "upright-flat-hook-serifless"
+six = "open-contour"
+eight = "crossing"
+nine = "open-contour"
 zero = "oval-dotted"
+capital-b = "more-asymmetric-serifless"
+capital-j = "descending-flat-hook-serifed"
 capital-m = "flat-bottom-serifless"
-capital-q = "vertical-crossing"
+capital-q = "closed-swash"
+capital-u = "toothed-serifless"
 capital-w = "straight-flat-top-serifless"
 a = "single-storey-top-cut-serifless"
-f = "flat-hook-extended"
-g = "single-storey-top-cut"
-i = "hooky"
-r = "hookless-serifless"
-t = "bent-hook-short-neck2"
+f = "flat-hook-extended-crossbar-at-x-height"
+g = "single-storey-flat-hook-top-cut"
+i = "serifed-flat-tailed"
+j = "flat-hook-serifed"
+k = "cursive-serifless"
+l = "serifed-flat-tailed"
+m = "earless-rounded-double-arch-serifless"
+q = "top-cut-straight-serifless"
+r = "compact-serifless"
+t = "flat-hook-short-neck2"
 w = "straight-flat-top-serifless"
-y = "cursive-serifless"
-long-s = "flat-hook-tailed"
-lower-delta = "flat-top"
-lower-mu = "toothed-serifless"
-lower-pi = "tailless"
-lower-tau = "tailed"
-partial-derivative = "curly-bar"
-cyrl-a = "single-storey-top-cut-serifed"
-tittle = "square"
-diacritic-dot = "square"
-punctuation-dot = "square"
-braille-dot = "square"
+y = "cursive-flat-hook-serifless"
 asterisk = "hex-low"
 paren = "large-contour"
-brace = "curly-flat-boundary"
-guillemet = "straight"
-ampersand = "flat-top"
+brace = "curly"
+guillemet = "curly"
+number-sign = "upright-tall"
+ampersand = "lower-open"
 at = "compact"
 percent = "rings-continuous-slash"
 question = "corner"
 pilcrow = "curved"
 decorative-angle-brackets = "tall"
 lig-ltgteq = "slanted"
+lig-neq = "slightly-slanted"
 lig-equal-chain = "without-notch"
 lig-hyphen-chain = "without-notch"
+lig-plus-chain = "without-notch"
+lig-single-arrow-bar = "without-notch"
 
   [buildPlans.Tempestypes.ligations]
   inherits = "dlig"
-
-[buildPlans.Tempestypes.weights.Thin]
-shape = 100
-menu = 100
-css = 100
-
-[buildPlans.Tempestypes.weights.Light]
-shape = 300
-menu = 300
-css = 300
 
 [buildPlans.Tempestypes.weights.Regular]
 shape = 400
