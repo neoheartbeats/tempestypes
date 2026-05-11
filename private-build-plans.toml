@@ -2,7 +2,7 @@
 family = "Tempestypes"
 spacing = "fontconfig-mono"
 serifs = "sans"
-noCvSs = false
+noCvSs = true
 exportGlyphNames = false
 
 [buildPlans.Tempestypes.variants.design]
@@ -25,14 +25,17 @@ f = "flat-hook-extended-crossbar-at-x-height"
 g = "single-storey-flat-hook-top-cut"
 i = "serifed-flat-tailed"
 j = "flat-hook-serifed"
-k = "cursive-serifless"
+k = "symmetric-touching-serifless"
 l = "serifed-flat-tailed"
-m = "earless-rounded-double-arch-serifless"
 q = "top-cut-straight-serifless"
 r = "compact-serifless"
 t = "flat-hook-short-neck2"
 w = "straight-flat-top-serifless"
 y = "cursive-flat-hook-serifless"
+cyrl-a = "double-storey-hook-inward-serifed-serifless"
+tittle = "square"
+diacritic-dot = "square"
+ellipsis-density = "dense"
 asterisk = "hex-low"
 paren = "large-contour"
 brace = "curly"
@@ -59,10 +62,15 @@ shape = 400
 menu = 400
 css = 400
 
-[buildPlans.Tempestypes.weights.Bold]
-shape = 700
-menu = 700
-css = 700
+[buildPlans.Tempestypes.weights.Light]
+shape = 300
+menu = 300
+css = 300
+
+[buildPlans.Tempestypes.weights.SemiBold]
+shape = 600
+menu = 600
+css = 600
 
 [buildPlans.Tempestypes.widths.Normal]
 shape = 500
